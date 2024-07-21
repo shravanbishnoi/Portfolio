@@ -1,0 +1,42 @@
+
+/* Ensure the header bar spans the full width */
+.navbar {
+    width: 100%;
+  }
+  
+  /* Style for the Font Awesome icon */
+  .navbar-brand .fas {
+    margin-right: 15px; /* Add space between the icon and the text */
+    margin-left: 15px;
+  }
+  
+  /* Ensure the brand logo and text are aligned */
+  .navbar-brand {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    font-weight: bold; /* Make the text bold */
+    font-family: serif;
+    font-size: xx-large;
+  }
+  
+  /* Right-align the navigation buttons */
+  .navbar-nav {
+    margin-left: auto; /* Push nav items to the right */
+    margin-right: 25px;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 15px; /* Adjust the value as needed */
+  }
+  /* Hover effect for navbar buttons */
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+    background-color: transparent; /* Ensure background color remains transparent on hover */
+  }
+  
+  /* Optionally, if you want to add a background color on hover */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light background color on hover (adjust opacity as needed) */
+    color: #007bff; /* Change text color on hover */
+  }
+  
