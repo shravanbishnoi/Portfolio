@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className='App'>
-      <NavbarComponent text="SHRAVAN"
+      <NavbarComponent text="SHRAVAN RAM"
         scrollToProjects={() => scrollToSection(projectsRef)} 
         scrollToSkills={() => scrollToSection(skillsRef)} 
         scrollToContact={() => scrollToSection(contactRef)} 
@@ -38,17 +38,12 @@ function App() {
 
       <div>
         <>
-          <Header text="CREATIVE UI/UX DESIGNER & WEB DEVELOPER" /> 
-          <ProfileSection  text="I’m an India-based web designer and developer focused on creating 
-            clean & user-friendly experiences. I love to design beautiful and 
-            functional websites for clients and businesses. This additional text 
-            will be visible once you click 'Read More'. Here you can add more 
-            details about your skills, experiences, or other relevant information 
-            that you want to share with your audience." 
+          <Header text="Step Right In – <br /> Where Code Meets Curiosity!" /> 
+          <ProfileSection  text="Hi, I'm Shravan, a Computer Science student at Sitare University in my third year. With a strong foundation in Python, Java, and a solid grasp of Data Structures, Algorithms, and AI/ML, I'm passionate about solving problems and building innovative solutions. My coursework spans areas like Database Management, Information Retrieval, AI, Machine Learning, Deep Learning, and Web Development. Beyond academics, I enjoy spending time on the cricket field, which keeps me energized and motivated. Welcome to my portfolio – take a look around to learn more about my projects and experiences!" 
             scrollToContact={() => scrollToSection(contactRef)} /> 
         </>
       </div>
-      {/* <div ref={experienceRef}>
+      <div ref={experienceRef}>
         <>
           <Header text="EXPERIENCE" />
           <Experience />
@@ -59,7 +54,7 @@ function App() {
           <Header text="SKILLS" />
           <Skills />
         </>
-      </div> */}
+      </div>
       <div ref={projectsRef}>
         <>
           <Header text="PROJECTS" />
@@ -72,13 +67,13 @@ function App() {
         </>
       </div>
       
-      {/* <div ref={contactRef}>
+      <div ref={contactRef}>
         <>
           <Header text="CONTACT ME" />
           <Contact />
         </>
-      </div> */}
-      <FAQs />
+      </div>
+      {/* <FAQs /> */}
       <Footer />
       <ScrollToTop />
     </div>

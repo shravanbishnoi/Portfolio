@@ -1,0 +1,26 @@
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns per row */
+    gap: 10px; /* Adjust this for the desired spacing between icons */
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .skill-item {
+    text-align: center;
+  }
+  
+  .skill-logo {
+    width: 150px; /* Adjust as needed */
+    height: 150px;
+    margin-bottom: 5px;
+  }
+  
+  .skill-item p {
+    font-size: 0.9em;
+    color: #ffffff;
+  }
+  
